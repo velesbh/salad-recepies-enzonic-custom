@@ -1,5 +1,5 @@
 #!/bin/bash
-MODEL=${MODEL:-llama3.1:8b}
+MODEL=${MODEL:-huihui_ai/deepseek-r1-abliterated:32b}
 ollama run ${MODEL}
 
 # Keep the container running
